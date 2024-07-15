@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>
+        Multi Timer
+    </title>
+</head>
+<link rel="stylesheet" href="./main.css">
+
+</html>
+
+<body>
+    <script src="./main.js"></script>
+
+    <input type="text" name="schedule" id="schedule" value="" placeholder="Comma separated minutes" required>
+
+    <button onclick="trigger()">Start</button>
+
+    <div id="progress">
+        <div id="progress-bar"></div>
+    </div>
+    <h2 id="timestamp"></h2>
+
+    <audio id="alarm">
+        <source src="./copper-bell-ding.mp3" type="audio/mpeg">
+    </audio>
+
+</body>

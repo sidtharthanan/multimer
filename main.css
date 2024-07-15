@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    text-align: center;
+}
+
+#progress {
+    width: 90%;
+    height: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid blue;
+}
+
+#progress-bar {
+    height: 20px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+button {
+    margin: 0 auto 20px;
+}
+
+input {
+    margin: 5px;
+}
